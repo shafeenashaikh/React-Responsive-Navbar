@@ -5,7 +5,7 @@ export const MenuList =[
     },
     {
         title:"Key Features",
-        url:"/fetures",
+        url:"/features",
     },
     {
         title:"Pricing",
