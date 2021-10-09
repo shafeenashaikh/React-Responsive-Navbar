@@ -1,13 +1,16 @@
 import React from 'react';
 import {MenuList} from './MenuList'
 import "./Navbar.css";
+import {NavLink} from 'react-router-dom'
 
 const Navbar = () => {
 
     const menuList = MenuList.map(({url, title}, index) => {
         return (
             <li key={index}>
-                <a href={url}>{title}</a>
+                <NavLink exact to={url} activeClassName="active">
+                    {title}
+                </NavLink>
             </li>
         )
     });
