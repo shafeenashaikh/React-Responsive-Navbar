@@ -5,7 +5,7 @@
   font-family: "Roboto", sans-serif;
 }
 .container {
-  /* background: url("./images/bg.jpg"); */
+  background: url("C:\Users\intel\Desktop\React-Projects\responsive-navbar\src\Components\img\bg.jpg");
   background-position: center;
   background-size: cover;
   width: 100%;

@@ -1,5 +1,6 @@
 import React from 'react';
 import {MenuList} from './MenuList'
+import "./Navbar.css";
 
 const Navbar = () => {
 
@@ -11,14 +12,14 @@ const Navbar = () => {
         )
     });
     return(
-        <div>
+        <nav>
             <div className="logo">
             VPN<font>Lab</font>
             </div>
             <ul className="menu-list">
                  {menuList}
             </ul>
-        </div>
+        </nav>
     )
 }
 export default Navbar;
